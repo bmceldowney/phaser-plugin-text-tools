@@ -1,0 +1,1097 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"creep	(?)"
+			],
+			[
+				"pro",
+				"prototype	{}"
+			],
+			[
+				"C",
+				"Creep(x, y, _game)"
+			],
+			[
+				"col",
+				"columns	(num)"
+			],
+			[
+				"cre",
+				"creepConfig	{}"
+			],
+			[
+				"st",
+				"startY	(?)"
+			],
+			[
+				"start",
+				"startX"
+			],
+			[
+				"w",
+				"walkUp"
+			],
+			[
+				"grid",
+				"gridRow	(?)"
+			],
+			[
+				"poi",
+				"pointY	(num)"
+			],
+			[
+				"til",
+				"tileWidth	(num)"
+			],
+			[
+				"gri",
+				"gridY	(num)"
+			],
+			[
+				"gi",
+				"gridX	(num)"
+			],
+			[
+				"t",
+				"tileWidth	(num)"
+			],
+			[
+				"tile",
+				"tileWidth	(num)"
+			],
+			[
+				"for",
+				"forEach(f, context?)"
+			],
+			[
+				"cr",
+				"creeps	[]"
+			],
+			[
+				"P",
+				"Physics"
+			],
+			[
+				"play",
+				"playerGroundMaterial	(?)"
+			],
+			[
+				"pla",
+				"playerMaterial	(?)"
+			],
+			[
+				"ply",
+				"player"
+			],
+			[
+				"back",
+				"backRear	(?)"
+			],
+			[
+				"ba",
+				"backFront	(?)"
+			],
+			[
+				"bac",
+				"backRear	(?)"
+			],
+			[
+				"sha",
+				"shapeB	(?)"
+			],
+			[
+				"groun",
+				"groundMaterial	(?)"
+			],
+			[
+				"gro",
+				"groundBodies	(?)"
+			],
+			[
+				"is",
+				"isGrounded	(bool)"
+			],
+			[
+				"coll",
+				"collisionLayer	(?)"
+			],
+			[
+				"set",
+				"setTo"
+			],
+			[
+				"U",
+				"Utilities	{}"
+			],
+			[
+				"score",
+				"scoreText	(?)"
+			],
+			[
+				"star",
+				"stars	(?)"
+			],
+			[
+				"sta",
+				"star	(?)"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"entr",
+				"entry"
+			],
+			[
+				"ot",
+				"option"
+			],
+			[
+				"ent",
+				"entryIndex"
+			],
+			[
+				"i",
+				"i	Tag"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"enc",
+				"encounter"
+			],
+			[
+				"en",
+				"entries"
+			],
+			[
+				"e",
+				"encounter"
+			],
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"En",
+				"Encounter"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"api",
+				"apiKey"
+			],
+			[
+				"a",
+				"angular"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"parse",
+				"parseEntryOptions"
+			],
+			[
+				"grou",
+				"groups"
+			],
+			[
+				"gr",
+				"groups"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"tag",
+				"TagModel"
+			],
+			[
+				"enco",
+				"encounters"
+			],
+			[
+				"stop",
+				"stopTravelling"
+			],
+			[
+				"_",
+				"_loop"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"r",
+				"random"
+			],
+			[
+				"terr",
+				"terrain"
+			],
+			[
+				"rand",
+				"randomNumber"
+			],
+			[
+				"bin",
+				"binding"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"get",
+				"getProfessions"
+			],
+			[
+				"cli",
+				"clickedItem"
+			],
+			[
+				"sel",
+				"selectedProfession"
+			],
+			[
+				"toggle",
+				"toggleSelected"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ter",
+				"terrainType"
+			],
+			[
+				"path",
+				"pathSection"
+			],
+			[
+				"cur",
+				"currentTerrainType"
+			],
+			[
+				"loo",
+				"loop"
+			],
+			[
+				"tr",
+				"travelLoop"
+			],
+			[
+				"re",
+				"recruitmentPools"
+			],
+			[
+				"p",
+				"profesion"
+			],
+			[
+				"Half",
+				"Half-Orc"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"sa",
+				"sageSkillSelector"
+			],
+			[
+				"new",
+				"newValue"
+			],
+			[
+				"su",
+				"subscribe"
+			],
+			[
+				"s",
+				"subclass"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"skil",
+				"skills"
+			],
+			[
+				"ch",
+				"character"
+			],
+			[
+				"skill",
+				"skillId"
+			],
+			[
+				"he",
+				"hero-container"
+			],
+			[
+				"on",
+				"onHeroClicked"
+			],
+			[
+				"sub",
+				"subclass"
+			],
+			[
+				"cla",
+				"classUpdated"
+			],
+			[
+				"ret",
+				"retval"
+			],
+			[
+				"char",
+				"characterModel"
+			],
+			[
+				"cl",
+				"classId"
+			],
+			[
+				"d",
+				"Data"
+			],
+			[
+				"g",
+				"Game"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"att",
+				"attributeCost"
+			],
+			[
+				"cha",
+				"character"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"character",
+				"characterCreation"
+			],
+			[
+				"str",
+				"onStrengthUp"
+			],
+			[
+				"butt",
+				"buttonText"
+			],
+			[
+				"hire",
+				"hireButton"
+			],
+			[
+				"inn",
+				"innerdayselapsed"
+			],
+			[
+				"da",
+				"daysElapsed"
+			],
+			[
+				"pr",
+				"professionHead-right"
+			],
+			[
+				"prof",
+				"professionHead"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"Cha",
+				"Character"
+			],
+			[
+				"bui",
+				"building"
+			],
+			[
+				"displ",
+				"displayName"
+			],
+			[
+				"com",
+				"combat"
+			],
+			[
+				"tow",
+				"townMap"
+			],
+			[
+				"worl",
+				"world"
+			],
+			[
+				"wo",
+				"world"
+			],
+			[
+				"world",
+				"worldMap"
+			],
+			[
+				"ui-",
+				"ui-btn"
+			],
+			[
+				"mari",
+				"margin	margin-left: length"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"file": "js/text.js",
+			"file_size": 0,
+			"file_write_time": 1409907118000000,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "describe('text', function() {\n    \n});\n",
+			"file": "tests/js/text-test.js",
+			"file_size": 0,
+			"file_write_time": 1409907248000000,
+			"settings":
+			{
+				"buffer_size": 39,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Closure Linter: Fix JavaScript Style"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bmceldowney/Sites/game/game.sublime-project",
+		"/Users/bmceldowney/Library/Application Support/Sublime Text 2/Packages/TernJS/TernJS.sublime-settings",
+		"/Users/bmceldowney/Library/Application Support/Sublime Text 2/Packages/User/TernJS.sublime-settings",
+		"/Users/bmceldowney/Sites/combat/game/main.js",
+		"/Users/bmceldowney/Sites/combat/game/states/play.js",
+		"/Users/bmceldowney/Sites/phaser/src/input/Keyboard.js",
+		"/Users/bmceldowney/Sites/crossroads/3rd party/phaser.js",
+		"/Users/bmceldowney/Sites/crossroads/3rd party/easystar.js",
+		"/Users/bmceldowney/Sites/easystarjs/demo/views/index.html",
+		"/Users/bmceldowney/Sites/crossroads/index.html",
+		"/Users/bmceldowney/Sites/easystarjs/demo/static/js/easy-star-demo.js",
+		"/Users/bmceldowney/Sites/phaser_plugin_pathfinding/src/PathFinderPlugin.js",
+		"/Users/bmceldowney/Sites/phaser_plugin_pathfinding/src/Game.js",
+		"/Users/bmceldowney/Sites/phaser_plugin_pathfinding/index.html",
+		"/Users/bmceldowney/Sites/crossroads/js/debugGrid.js",
+		"/Users/bmceldowney/Sites/crossroads/creep.js",
+		"/Users/bmceldowney/Sites/phaserjs-tut/assets/jungle.json",
+		"/Users/bmceldowney/Sites/phaserjs-tut/assets/tilemap.json",
+		"/Users/bmceldowney/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/bmceldowney/Sites/phaserjs-tut/js/phaser.js",
+		"/Users/bmceldowney/Sites/phaserjs-tut/utilities.js",
+		"/Users/bmceldowney/Sites/phaserjs-tut/objects/player.js",
+		"/Users/bmceldowney/Sites/phaserjs-tut/game.js",
+		"/Users/bmceldowney/Sites/phaserjs-tut/game.css",
+		"/Users/bmceldowney/Sites/phaserjs-tut/index.html",
+		"/Users/bmceldowney/Library/Application Support/Sublime Text 2/Packages/JsFormat/JsFormat.sublime-settings",
+		"/Users/bmceldowney/Library/Application Support/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/Users/bmceldowney/storybuilder/app.js",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/storyBuilder/js/storyBuilder.js",
+		"/Users/bmceldowney/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/bmceldowney/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/storyBuilder/css/style.less",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/storyBuilder/css/elements.less",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/storyBuilder/creat.html",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/combat/index.html",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/combat/js/combat.js",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/site.sublime-project",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/.codeintel/config",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/index.html",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/storyBuilder/main.html",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/storyBuilder/css/style.css",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/css/style.css",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/js/app.js",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/storyBuilder/index.html",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/combat/creation.html",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/combat/intro.html",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/README.md",
+		"/Users/bmceldowney/Sites/bmceldowneyDOTcom/combat/css/style.css",
+		"/Users/bmceldowney/Sites/Delve/titleScreen.html",
+		"/Users/bmceldowney/Sites/Delve/css/encounter.css",
+		"/Users/bmceldowney/Sites/Delve/js/viewModels/encounterViewModel.js",
+		"/Users/bmceldowney/Sites/Delve/models/tags.js",
+		"/Users/bmceldowney/Sites/Delve/css/delve.css",
+		"/Users/bmceldowney/Sites/Delve/js/travelLoop.js",
+		"/Users/bmceldowney/Sites/Delve/js/init.js",
+		"/Users/bmceldowney/Sites/Delve/js/utilities.js",
+		"/Users/bmceldowney/Sites/Delve/js/gameState.js",
+		"/Users/bmceldowney/Sites/Delve/data/encounters/theCave.json",
+		"/Users/bmceldowney/Sites/Delve/data/encounters/theCave_troll.json",
+		"/Users/bmceldowney/Sites/Delve/DelvePhone.sublime-project",
+		"/Users/bmceldowney/Sites/Delve/pages/partySelection/partySelection.js",
+		"/Users/bmceldowney/Sites/Delve/pages/partySelection/partySelection.css",
+		"/Users/bmceldowney/Sites/Delve/pages/partySelection/partySelection.html",
+		"/Users/bmceldowney/Sites/Delve/pages/travel/travel.js",
+		"/Users/bmceldowney/Sites/Delve/data/travel.js",
+		"/Users/bmceldowney/Sites/Delve/js/encounters.js",
+		"/Users/bmceldowney/Sites/Delve/css/titleScreen.css",
+		"/Users/bmceldowney/Sites/Delve/pages/travel/travel.css",
+		"/Users/bmceldowney/Sites/Delve/pages/travel/travel.html",
+		"/Users/bmceldowney/Sites/Delve/js/viewModels/characterViewModel.js",
+		"/Users/bmceldowney/Sites/Delve/data/professions.js",
+		"/Users/bmceldowney/Sites/Delve/frame.html",
+		"/Users/bmceldowney/Sites/Delve/data/character.js",
+		"/Users/bmceldowney/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/bmceldowney/Sites/Delve/js/character.js",
+		"/Users/bmceldowney/Sites/Delve/data/skills.js",
+		"/Users/bmceldowney/Sites/Delve/js/data.js",
+		"/Users/bmceldowney/Sites/Delve/pages/partyOutfitting/partyOutfitting.html",
+		"/Users/bmceldowney/Sites/Delve/pages/characterCreation/characterCreation.html",
+		"/Users/bmceldowney/Sites/Delve/pages/characterCreation/characterCreation.js",
+		"/Users/bmceldowney/Sites/Delve/pages/characterCreation/characterCreation.css",
+		"/Users/bmceldowney/Sites/Delve/pages/classSelect/classSelect.js",
+		"/Users/bmceldowney/Sites/Delve/pages/classSelect/classSelect.css",
+		"/Users/bmceldowney/Sites/Delve/pages/classSelect/classSelect.html",
+		"/Users/bmceldowney/Sites/Delve/pages/intro/intro.html",
+		"/Users/bmceldowney/Sites/Delve/pages/dev/statCreation/statCreation.js",
+		"/Users/bmceldowney/Sites/Delve/pages/dev/statCreation/statCreation.html",
+		"/Users/bmceldowney/Sites/Delve/pages/dev/statCreation/statCreation.css",
+		"/Users/bmceldowney/Sites/Delve/pages/explore/explore.css",
+		"/Users/bmceldowney/Sites/Delve/pages/explore/explore.html",
+		"/Users/bmceldowney/Sites/Delve/pages/partyOutfitting/partyOutfitting.css",
+		"/Users/bmceldowney/Sites/Delve/pages/explore/explore.js",
+		"/Users/bmceldowney/Sites/Delve/pages/combat/combat.html",
+		"/Users/bmceldowney/Sites/Delve/js/delve.js",
+		"/Users/bmceldowney/Sites/Delve/js/enums.js",
+		"/Users/bmceldowney/Sites/Delve/js/tradeDefinitions.js",
+		"/Users/bmceldowney/Sites/Delve/pages/combat/combat.js",
+		"/Users/bmceldowney/Sites/Delve/pages/combat/combat.css",
+		"/Users/bmceldowney/Sites/Delve/pages/townMap/townMap.html",
+		"/Users/bmceldowney/Sites/Delve/pages/townMap/townMap.js",
+		"/Users/bmceldowney/Sites/Delve/pages/townMap/townMap.css",
+		"/Users/bmceldowney/Sites/Delve/pages/worldMap/worldMap.html",
+		"/Users/bmceldowney/Sites/Delve/pages/worldMap/worldMap.js",
+		"/Users/bmceldowney/Sites/Delve/pages/intro/intro.js",
+		"/Users/bmceldowney/Sites/Delve/resources/trades.txt",
+		"/Users/bmceldowney/Sites/Delve/resources/lastnames.txt",
+		"/Users/bmceldowney/Sites/Delve/resources/firstnames.txt",
+		"/Users/bmceldowney/Sites/Delve/pages/worldMap/worldMap.css",
+		"/Users/bmceldowney/Sites/Delve/index.html",
+		"/Users/bmceldowney/DelvePhone/www/pages/intro/intro.html",
+		"/Users/bmceldowney/DelvePhone/www/index.html",
+		"/Users/bmceldowney/DelvePhone/www/js/enums.js",
+		"/Users/bmceldowney/DelvePhone/www/js/delve.js",
+		"/Users/bmceldowney/DelvePhone/www/frame.html",
+		"/Users/bmceldowney/DelvePhone/www/js/load.js",
+		"/Users/bmceldowney/Sites/DelveWeb/js/vendor/gameState",
+		"/Users/bmceldowney/Sites/DelveWeb/Delve.sublime-project",
+		"/Users/bmceldowney/Sites/Delve/js/main.js",
+		"/Users/bmceldowney/Sites/mapper/Mapper/js/drawing.js",
+		"/Users/bmceldowney/Sites/mapper/Mapper/css/mapper.css",
+		"/Users/bmceldowney/Sites/mapper/Mapper/index.html",
+		"/Users/bmceldowney/Sites/mapper/Mapper/js/init.js",
+		"/Users/bmceldowney/Sites/mapper/Mapper/js/annotation.js",
+		"/Users/bmceldowney/Sites/mapper/Mapper/js/mouse.js",
+		"/Users/bmceldowney/Sites/mapper/Mapper/js/mapper.js",
+		"/Users/bmceldowney/Sites/mapper/Mapper/js/load.js",
+		"/Users/bmceldowney/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/bmceldowney/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/bmceldowney/Sites/Delve",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Phaser.Physics.ARCADE",
+			"Body",
+			"ArcadePhysics",
+			".en-add-button",
+			"						",
+			"\nr",
+			"\n}",
+			"it",
+			"item-list",
+			"encounterDisplay",
+			"hiredProfession1",
+			"travelDistance",
+			"currentSpeed",
+			"fullscreen",
+			"count",
+			"../..",
+			"images/professions/",
+			"Game.State",
+			"images/professions/",
+			"pcViewModel",
+			"personality",
+			"will",
+			"Intelect",
+			"physical",
+			"personality",
+			"will",
+			"intelect",
+			"physical",
+			"computed",
+			"scroll",
+			" =",
+			"statusInfo",
+			"getMousePos",
+			"            "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../../images/professions/",
+			"state",
+			"../../images/professions/",
+			"personality",
+			"knowledge",
+			"vitality",
+			"personality",
+			"knowledge",
+			"vitality",
+			":"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/text.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"laxcomma": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tests/js/text-test.js",
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"laxcomma": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.gjslint_result_view":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true
+}

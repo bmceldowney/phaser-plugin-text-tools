@@ -1,0 +1,33 @@
+{
+  "name": "phaser-plugin-text-tools",
+  "version": "0.0.1",
+  "description": "A PhaserJS plugin to manage text",
+  "main": "index.js",
+  "watch": {
+    "test": "{js,spec}/*.js"
+  },
+  "scripts": {
+    "test": "./node_modules/jasmine-node/bin/jasmine-node ./specs",
+    "watch": "npm-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bmceldowney/phaser-plugin-text-tools.git"
+  },
+  "keywords": [
+    "phaser",
+    "phaserjs",
+    "phaser-plugin"
+  ],
+  "author": "Ben McEldowney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmceldowney/phaser-plugin-text-tools/issues"
+  },
+  "homepage": "https://github.com/bmceldowney/phaser-plugin-text-tools",
+  "devDependencies": {
+    "jasmine": "^2.0.1",
+    "jasmine-node": "^1.14.5",
+    "npm-watch": "0.0.0"
+  }
+}
