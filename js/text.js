@@ -6,7 +6,7 @@
     Phaser.Plugin.TextTools = function (game, parent) {
         Phaser.Plugin.call(this, game, parent);
         Text.prototype = Object.create(this);
-        Text.prototype.multiline = multiline;
+        Text.prototype.wrap = wrap;
 
         this._useBitmapFont = false;
         this._bitmapFontKey = '';
@@ -36,6 +36,7 @@
         this.x = x;
         this.y = y;
         this.value = text;
+        this._text;
 
         var fontObj = {
             font: this._font,
@@ -45,20 +46,19 @@
         };
 
         if (this._useBitmapFont) {
-            this.game.add.bitmapText(x, y, this._bitmapFontKey, text, this._size);
+            this._text = this.game.add.bitmapText(x, y, this._bitmapFontKey, text, this._size);
         } else {
-            this.game.add.text(x, y, text, fontObj);
+            this._text = this.game.add.text(x, y, text, fontObj);
         }
     }
 
-    function multiline(width) {
-        //var words = this.value.split(' ');
-
-        //if (this._useBitmapFont) {
-            //PIXI.BitmapText.fonts[this._bitmapFontKey].chars[1];
-        //} else {
-
-        //}
+    function wrap(wrapWidth) {
+        if (this._useBitmapFont) {
+        	this._text.wrap(wrapWidth);
+            // PIXI.BitmapText.fonts[this._bitmapFontKey].chars[1];
+        } else {
+        	log.warn("TextTools: wrap() method doesn't yet support non-bitmap text");
+        }
     }
 
     /* Utility functions*/
@@ -74,3 +74,62 @@
         }
     }
 })();
+
+// assume no line breaks
+PIXI.BitmapText.prototype.measureWidth = function (text) {
+	var data = PIXI.BitmapText.fonts[this.fontName];
+	var charData;
+	var pos = new PIXI.Point();
+	var prevCharCode = null;
+	var charCode;
+	var scale = this.fontSize / data.size;
+
+	for (var i = 0; i < text.length; i++) {
+		charCode = this.text.charCodeAt(i);
+		charData = data.chars[charCode];
+		if(!charData) continue;
+
+		if(prevCharCode && charData[prevCharCode]) {
+			pos.x += charData.kerning[prevCharCode];
+		}
+
+		pos.x += charData.xAdvance;
+		prevCharCode = charCode;
+	}
+
+	return pos.x * scale;
+}
+
+PIXI.BitmapText.prototype.measureWords = function (text) {
+	if (!text) text = this.text;
+
+	var words = text.split(' ');
+	var wordLengths = [];
+
+	for (var i = 0; i < words.length; i++) {
+		wordLengths.push({ word: words[i], length: this.measureWidth(words[i]) });
+	}
+
+	return wordLengths;
+}
+    
+PIXI.BitmapText.prototype.wrap = function (width, height) {
+	var words = this.measureWords(this.text);
+	var currentLine = words[0].word;
+	var lines = [];
+
+	for (var i = 1; i < words.length; i++) {
+		var newLine = currentLine + ' ' + words[i].word;
+		var lineWidth = this.measureWidth(newLine);
+		if (lineWidth < width) {
+			currentLine = newLine;
+		} else {
+			lines.push(currentLine);
+			currentLine = words[i].word;
+		}
+	}
+
+	lines.push(currentLine);
+
+	this.text = lines.join('\r');
+}

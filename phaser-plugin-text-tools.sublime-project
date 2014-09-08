@@ -8,16 +8,3 @@
 		}
 	]
 }
-
-
-if we wanted to create default font settings
-if
-
-default to arial 64 px
-fill: #fff
-
-
-Cascading styles
-
-
-text.extend()
