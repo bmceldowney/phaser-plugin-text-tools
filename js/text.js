@@ -7,6 +7,7 @@
         Phaser.Plugin.call(this, game, parent);
         Text.prototype = Object.create(this);
         Text.prototype.wrap = wrap;
+        Text.prototype.type = type;
 
         this._useBitmapFont = false;
         this._bitmapFontKey = '';
@@ -31,12 +32,12 @@
 
     /* Text class */
 
-    function Text(x, y, text, opts) {
+    function Text (x, y, text, opts) {
         setOptions(this, opts);
         this.x = x;
         this.y = y;
         this.value = text;
-        this._text;
+        this.letterTyped = new Phaser.Signal();
 
         var fontObj = {
             font: this._font,
@@ -52,19 +53,50 @@
         }
     }
 
-    function wrap(wrapWidth) {
+    function type (typeSpeed) {
+        var text = this._text.text;
+        this._text.text = '';
+        var textIndex = 0;
+        var interval = setInterval(function (that) {
+            if (textIndex === text.length) {
+                clearInterval(interval);
+                return;
+            }
+
+            that.letterTyped.dispatch();
+            
+            // an empty text property actually contains a space
+            if (that._text.text === ' ') {
+                that._text.text = text[textIndex];
+            } else {
+                that._text.text += text[textIndex];
+            }
+
+            textIndex++;
+        }, typeSpeed, this);
+
+        return this;
+    }
+
+    function wrap (wrapWidth) {
         if (this._useBitmapFont) {
-        	this._text.wrap(wrapWidth);
-            // PIXI.BitmapText.fonts[this._bitmapFontKey].chars[1];
+            this._text.wrap(wrapWidth);
         } else {
-        	log.warn("TextTools: wrap() method doesn't yet support non-bitmap text");
+            log.warn("TextTools: wrap() method doesn't yet support non-bitmap text");
         }
+
+        return this;
     }
 
     /* Utility functions*/
 
-    function setOptions(obj, opts) {
+    function setOptions (obj, opts) {
         if (!opts) return;
+
+        opts.size && (obj._size = opts.size);
+        opts.font && (obj._font = opts.font);
+        opts.fill && (obj._fill = opts.fill);
+        opts.align && (obj._align = opts.align);
 
         if (!!opts.bitmapFont && !obj.game.cache._images[opts.bitmapFont]) {
             console.log("Phaser.Plugin.TextTools: bitmapFont '" + opts.bitmapFont + "' not found in cache");
@@ -98,7 +130,7 @@ PIXI.BitmapText.prototype.measureWidth = function (text) {
 	}
 
 	return pos.x * scale;
-}
+};
 
 PIXI.BitmapText.prototype.measureWords = function (text) {
 	if (!text) text = this.text;
@@ -111,7 +143,7 @@ PIXI.BitmapText.prototype.measureWords = function (text) {
 	}
 
 	return wordLengths;
-}
+};
     
 PIXI.BitmapText.prototype.wrap = function (width, height) {
 	var words = this.measureWords(this.text);
@@ -132,4 +164,4 @@ PIXI.BitmapText.prototype.wrap = function (width, height) {
 	lines.push(currentLine);
 
 	this.text = lines.join('\r');
-}
+};
