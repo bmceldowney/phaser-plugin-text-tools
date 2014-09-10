@@ -40,8 +40,7 @@
         this.letterTyped = new Phaser.Signal();
 
         var fontObj = {
-            font: this._font,
-            fontSize: this._size,
+            font: this._size + 'pt ' + this._font,
             fill: this._fill,
             align: this._align
         };
@@ -82,7 +81,15 @@
         if (this._useBitmapFont) {
             this._text.wrap(wrapWidth);
         } else {
-            log.warn("TextTools: wrap() method doesn't yet support non-bitmap text");
+            var style = {
+                font: this._size + 'pt ' + this._font,
+                fill: this._fill,
+                wordWrapWidth: wrapWidth
+            };
+
+            this._text.setStyle(style);
+            var wrappedText = this._text.runWordWrap(this._text.text);
+            this._text.setText(wrappedText);
         }
 
         return this;
